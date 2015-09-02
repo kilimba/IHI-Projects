@@ -1,0 +1,14 @@
+HF
+* Different clinics require different combinations of staff to answer all the questions. How do we overcome
+* HMIS summary not necessary as we can get this data retrospectively from DHIS (can confirm with Isaac)
+* The wording (e.g of cadres) needs to be unambiguous
+* Questionnaire needs to be finalized (not draft) before training
+
+Household
+
+* Quite long
+* Needs work to ensure that head of house can be automatically established when entering a household into tablet from pre gathered data
+* The wording needs to be unambiguos and succint
+* Needs to be standardised (repeating questions, language)
+* Needs to be finalised before training (not draft)
+* How long ago was net last treated (needs UNITS... months, years?)

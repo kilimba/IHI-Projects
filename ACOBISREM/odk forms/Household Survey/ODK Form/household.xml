@@ -1,0 +1,2542 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Household Survey</h:title>
+    <model>
+      <itext>
+        <translation lang="Swahili">
+          <text id="/household/hhListingGrp/memberRpt/memberLName:label">
+            <value>Jina la Ukoo</value>
+          </text>
+          <text id="/household/waterSourceOther:label">
+            <value>Kwa kawaida wakazi wa kaya hii hupata maji yao kutoka wapi?</value>
+          </text>
+          <text id="/household/hhEnvGrp/height:label">
+            <value>What is the height above ground?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/2:label">
+            <value>Government Health Centre</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial:label">
+            <value>What are the windows screened with?</value>
+          </text>
+          <text id="/household/hhEnvGrp/everSprayedIRS:label">
+            <value>Je, hii nyumba ishawai kupuliziwa dawa ya mmbu?</value>
+          </text>
+          <text id="/household/goats/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepHere/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/openEaves/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/fowls/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/educationLevelHoH:hint">
+            <value>Jumlisha miaka yote aliosoma.00= chini ya mwaka mmoja, 1-7 elimu ya msingi, 8-14= Elimu ya upili , &gt;14 =Elimu ya juu, 99 =Hajui</value>
+          </text>
+          <text id="/household/hhEnvGrp/numChickensOutside:label">
+            <value>Mna kuku wangapi nje?</value>
+          </text>
+          <text id="/household/viambaza/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/interviewerName:label">
+            <value>Jina la mhojaji</value>
+          </text>
+          <text id="/household/hhEnvGrp/everSprayedIRS/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hohLName:label">
+            <value>Jina la ukoo la mkuu wa kaya</value>
+          </text>
+          <text id="/household/fowls/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepInside:label">
+            <value>Mna mbuzi au kondoo ndani?</value>
+          </text>
+          <text id="/household/viambaza/1:label">
+            <value>Mawe, simenti (saruji), matofali ya kuchoma</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/1:label">
+            <value>Government Hospital</value>
+          </text>
+          <text id="/household/hhEnvGrp/everSprayedIRS/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsOutside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/sofa/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/net/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/floor:label">
+            <value>Sakafu ya nyumba ya kaya hii imetengenezwa kwa kutumia nini?</value>
+          </text>
+          <text id="/household/hhEnvGrp/windows:label">
+            <value>Kuna madirisha mangapi?</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsInside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/ward:label">
+            <value>Kata</value>
+          </text>
+          <text id="/household/fowls:label">
+            <value>Kuku au bata</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepOutside:label">
+            <value>Mna mbuzi au kondoo nje?</value>
+          </text>
+          <text id="/household/waterSource/5:label">
+            <value>Wachuuzi wa maji</value>
+          </text>
+          <text id="/household/roofOther:label">
+            <value>Nyumba yenu imeezekewa nini?</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/4:label">
+            <value>Burning leaves</value>
+          </text>
+          <text id="/household/hhEnvGrp/numCowsOutdoors:label">
+            <value>Mna ngombe ngapi nje</value>
+          </text>
+          <text id="/household/mattress/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hamletLeaderMName:label">
+            <value>Jina la kati la mkuu wa kitongoji</value>
+          </text>
+          <text id="/household/toiletType/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/viambaza/4:label">
+            <value>Nyasi, maboksi (card board)</value>
+          </text>
+          <text id="/household/floor/3:label">
+            <value>Marumaru</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsInHouse/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/numFowls:label">
+            <value>Mna bata wangapi ndani?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/outdoorTime:label">
+            <value>Saa ngapi <output value=" /household/hhListingGrp/memberRpt/memberFName "/> alitoka nje kwa mara ya kwanza leo?</value>
+          </text>
+          <text id="/household/lightSource/2:label">
+            <value>Taa ya kandili, chemni</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/4:label">
+            <value>Mobile/study clinic</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/otherAnimals:label">
+            <value>Mifugo ingine</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/11:label">
+            <value>Traditional healer</value>
+          </text>
+          <text id="/household/viambazaOther:label">
+            <value>Je viambaza vya nyumba ya kaya hii vimejengwa kwa kutumia nini?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepHere/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/roof/2:label">
+            <value>Bati, asbestos</value>
+          </text>
+          <text id="/household/goats/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/cookingFuel/2:label">
+            <value>Kuni</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensOutside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/roof/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/otherAnimals/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/doors:label">
+            <value>Kuna milango mingapi ya kutokea nje?</value>
+          </text>
+          <text id="/household/educationLevelHoH:label">
+            <value>Je mkuu wa kaya amefikia kiwango gani cha elimu?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleptOutside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/watch:label">
+            <value>Saa</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleptOutside:label">
+            <value>Ndani ya mwezi moja uliopita, <output value=" /household/hhListingGrp/memberRpt/memberFName "/> amewai lala nje ya nyumbani?</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsOutHouse:label">
+            <value>Je mnafuga wanyama wowote nje ya nyumba?</value>
+          </text>
+          <text id="/household/watch/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/waterSource/4:label">
+            <value>Bomba la jumuia</value>
+          </text>
+          <text id="/household/viambaza/3:label">
+            <value>Bati, udongo, udongo na miti, mianzi</value>
+          </text>
+          <text id="/household/northings:label">
+            <value>GPS Northings</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsOutHouse/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/bed:label">
+            <value>Kitanda</value>
+          </text>
+          <text id="/household/village:label">
+            <value>Kijiji</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepHere:label">
+            <value>Je, <output value=" /household/hhListingGrp/memberRpt/memberFName "/> alilala hapa usiku wa kuamkia leo?</value>
+          </text>
+          <text id="/household/lightSource/3:label">
+            <value>Umeme</value>
+          </text>
+          <text id="/household/hhListingGrp:label">
+            <value>Orodha ya Wanakaya</value>
+          </text>
+          <text id="/household/toiletType/1:label">
+            <value>Choo cha kisasa cha maji</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/seekTreatment/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsOutdoors/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/lightSource/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/seekTreatment:label">
+            <value>Ulitafuta ushauri/tiba kutokea popote kuhusu hii homa?</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsInside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/waterSource/7:label">
+            <value>Maji ya Mvua</value>
+          </text>
+          <text id="/household/sheep/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlOutside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/iron/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleptOutside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/height:hint">
+            <value>Kwa Mita</value>
+          </text>
+          <text id="/household/cows:label">
+            <value>Ngombe</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsOutside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/roof/3:label">
+            <value>Makuti ya mnazi, mianzi, miti, udongo, nyasi, majani, makaratasi ya plastiki, madebe</value>
+          </text>
+          <text id="/household/hhEnvGrp/numGoatsOrSheepOutside:label">
+            <value>Mna mbuzi au kondoo ngapi nje?</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsInside:label">
+            <value>Mna mbwa au paka ndani?</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensIndoors/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/numChickens:label">
+            <value>Mna kuku wangapi ndani?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/indoorTime:label">
+            <value>Saa ngapi <output value=" /household/hhListingGrp/memberRpt/memberFName "/> aliingia ndani jana jioni/usiku?</value>
+          </text>
+          <text id="/household/mattress/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhId:label">
+            <value>Namba ya kaya</value>
+          </text>
+          <text id="/household/radio/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/floorOther:label">
+            <value>Sakafu ya nyumba ya kaya hii imetengenezwa kwa kutumia nini?</value>
+          </text>
+          <text id="/household/hohMName:label">
+            <value>Jina la kati la mkuu wa kaya</value>
+          </text>
+          <text id="/household/noteSES:hint">
+            <value>Swipe kuanza kuuliza</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial/2:label">
+            <value>Net ya zamani</value>
+          </text>
+          <text id="/household/floor/4:label">
+            <value>Simenti (saruji)</value>
+          </text>
+          <text id="/household/floor/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/cookingFuel/4:label">
+            <value>Mabaki ya mazao, vifuu vya nazi, mabaki ya mbao, nyasi, pumba, kinyesi cha wanyama</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlInside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/lightSource:label">
+            <value>Je huwa mnatumia taa za aina gani kwa kawaida?</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/roof:label">
+            <value>Nyumba yenu imeezekewa nini?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/3:label">
+            <value>Government Dispensary</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/2:label">
+            <value>Insecticidal spray</value>
+          </text>
+          <text id="/household/carOrTractor:label">
+            <value>Gari au trekta</value>
+          </text>
+          <text id="/household/lightSource/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlInside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/nearestHF:label">
+            <value>Kituo cha afya kilicho karibu na kaya hii ni kipi?</value>
+          </text>
+          <text id="/household/hhEnvGrp/windowNetting:label">
+            <value>Are the windows screened with netting?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/12:label">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide:label">
+            <value>Kuna dawa yoyote zaidi ya kuuwa mbu inayotumika kwenye nyumba hii?</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsOutdoors:label">
+            <value>Mna ngombe nje</value>
+          </text>
+          <text id="/household/toiletType/3:label">
+            <value>Choo cha shimo</value>
+          </text>
+          <text id="/household/lightSource/1:label">
+            <value>Koroboi au kibatali</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensIndoors:label">
+            <value>Mna kuku ndani?</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterialOther:label">
+            <value>What are the windows screened with?</value>
+          </text>
+          <text id="/household/mattress:label">
+            <value>Godoro</value>
+          </text>
+          <text id="/household/bed/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/viambaza/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/floor/2:label">
+            <value>Mbao</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/memberFName:label">
+            <value>Jina la Kwanza</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHWetSeason:label">
+            <value>Do you usually light a fire inside the house during wet season?</value>
+          </text>
+          <text id="/household/floor/1:label">
+            <value>Udongo</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/fever:label">
+            <value><output value=" /household/hhListingGrp/memberRpt/memberFName "/>ameumwa na homa ndani ya wiki mbili zilizopita?</value></text>
+          <text id="/household/hhEnvGrp/animalsInHouse:label">
+            <value>Je mnafuga wanyama wowote ndani ya nyumba?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/wakeTime:label">
+            <value>Saa ngapi <output value=" /household/hhListingGrp/memberRpt/memberFName "/> aliamka asubuhi ya leo?</value>
+          </text>
+          <text id="/household/sheep/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/bicycle/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/cookingFuel:label">
+            <value>Mnatumia kitu gani kupikia kwa mfano mkaa, kuni, umeme, n.k.?</value>
+          </text>
+          <text id="/household/noteSES:label">
+            <value>Je katika kaya hii kuna mtu yeyote mwenye kumiliki au kuwa na kitu kati vya vifuatavyo?</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsIndoors:label">
+            <value>Mna ngombe ndani?</value>
+          </text>
+          <text id="/household/watch/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/cookingFuel/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/hhEnvGrp/numGoatsOrSheep:label">
+            <value>Mna mbuzi au kondoo ngapi ndani?</value>
+          </text>
+          <text id="/household/radio:label">
+            <value>Redio</value>
+          </text>
+          <text id="/household/hhEnvGrp/monthLastIRS:label">
+            <value>Mwei hupi mwaka <output value=" /household/hhEnvGrp/yearLastIRS "/> hio dawa ilipulizwa?</value>
+          </text>
+          <text id="/household/hhEnvGrp/openEaves:label">
+            <value>Does the house have open eaves?</value>
+          </text>
+          <text id="/household/sofa/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/8:label">
+            <value>Private/Religious Dispensary</value>
+          </text>
+          <text id="/household/cookingFuel/1:label">
+            <value>Umeme, gesi, jua</value>
+          </text>
+          <text id="/household/net/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/toiletType/2:label">
+            <value>Choo cha kisasa cha shimo</value>
+          </text>
+          <text id="/household/bed/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/sheep:label">
+            <value>Kondoo</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepOutside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepOutside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/eastings:label">
+            <value>GPS Eastings</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/6:label">
+            <value>WAVI/Community health workers</value>
+          </text>
+          <text id="/household/hhEnvGrp/numCowsIndoors:label">
+            <value>Mna ngombe ngapi ndani?</value>
+          </text>
+          <text id="/household/viambaza/2:label">
+            <value>Matofali yasio chomwa (plaster au bila plaster), mchanga au mbao</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsIndoors/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/cookingFuel/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/fever/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHWetSeason/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHWetSeason/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/fever/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial/1:label">
+            <value>Net ya dukani</value>
+          </text>
+          <text id="/household/hhEnvGrp/numDogsOrCats:label">
+            <value>Mna mbwa au paka wangapi ndani?</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHDrySeason/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHDrySeason/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/seekTreatment/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/toiletType:label">
+            <value>Ni aina gani ya choo ambacho wakazi wa kaya hii hutumia?</value>
+          </text>
+          <text id="/household/lightSourceOther:label">
+            <value>Je huwa mnatumia taa za aina gani kwa kawaida?</value>
+          </text>
+          <text id="/household/carOrTractor/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/toiletType/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/9:label">
+            <value>Medical stores/Duka la dawa baridi</value>
+          </text>
+          <text id="/household/hhEnvGrp/numFowlsOutside:label">
+            <value>Mna bata wangapi nje?</value>
+          </text>
+          <text id="/household/motorcycle/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/motorcycle/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/3:label">
+            <value>Emanator</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsIndoors/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensOutside:label">
+            <value>Mna kuku nje?</value>
+          </text>
+          <text id="/household/waterSource/2:label">
+            <value>Kisima kilichopo hapa nyumbani</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/wardrobe/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/10:label">
+            <value>Normal Shop</value>
+          </text>
+          <text id="/household/hhEnvGrp/windowNetting/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/waterSource/1:label">
+            <value>Maji ya bomba lililopo hapa nyumbani</value>
+          </text>
+          <text id="/household/waterSource/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsInHouse/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/waterSource/3:label">
+            <value>Kisima (ndundiko) cha Jumuia</value>
+          </text>
+          <text id="/household/cows/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/cookingFuel/3:label">
+            <value>Mafuta ya taa, Biogas (gesi inayotokan na kinyesi cha wanyama), mkaa</value>
+          </text>
+          <text id="/household/waterSource:label">
+            <value>Kwa kawaida wakazi wa kaya hii hupata maji yao kutoka wapi?</value>
+          </text>
+          <text id="/household/waterSource/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsOutHouse/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepTime:label">
+            <value>Saa ngapi <output value=" /household/hhListingGrp/memberRpt/memberFName "/> alienda kulala jana jioni/usiku?</value>
+          </text>
+          <text id="/household/cows/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/5:label">
+            <value>Field worker</value>
+          </text>
+          <text id="/household/interviewDate:label">
+            <value>Tarehe</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated:label">
+            <value>Wapi ulitafuta ushauri/tiba?</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide/98:label">
+            <value>Hajui</value>
+          </text>
+          <text id="/household/goats:label">
+            <value>Mbuzi</value>
+          </text>
+          <text id="/household/hhEnvGrp:label">
+            <value>Mazingira ya Kaya</value>
+          </text>
+          <text id="/household/toiletTypeOther:label">
+            <value>Ni aina gani ya choo ambacho wakazi wa kaya hii hutumia?</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHDrySeason:label">
+            <value>Do you usually light a fire inside the house during dry season?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/7:label">
+            <value>Private/Religious hospital</value>
+          </text>
+          <text id="/household/hamletLeaderFName:label">
+            <value>Jina la kwanza la mwenyekiti wa kitongoji</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/memberMName:label">
+            <value>Jina la Kati</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/memberId:label">
+            <value>Member ID</value>
+          </text>
+          <text id="/household/hamlet:label">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsOutside:label">
+            <value>Mna mbwa au paka nje?</value>
+          </text>
+          <text id="/household/cookingFuelOther:label">
+            <value>Mnatumia kitu gani kupikia kwa mfano mkaa, kuni, umeme, n.k.?</value>
+          </text>
+          <text id="/household/wardrobe/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt:label">
+            <value>Orodha ya Wanakaya</value>
+          </text>
+          <text id="/household/bicycle/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/bicycle:label">
+            <value>Baiskeli</value>
+          </text>
+          <text id="/household/sofa:label">
+            <value>Makochi (sofa)</value>
+          </text>
+          <text id="/household/iron:label">
+            <value>Pasi</value>
+          </text>
+          <text id="/household/roof:hint">
+            <value>Angalia</value>
+          </text>
+          <text id="/household/floor/99:label">
+            <value>Other</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepInside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/net:label">
+            <value>Chandarua</value>
+          </text>
+          <text id="/household/motorcycle:label">
+            <value>Pikipiki</value>
+          </text>
+          <text id="/household/hhEnvGrp/yearLastIRS:label">
+            <value>Ni mwaka upi tangu nyumba ipuliziwe dawa?</value>
+          </text>
+          <text id="/household/iron/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/roof/1:label">
+            <value>Vigae, zege, simenti (saruji</value>
+          </text>
+          <text id="/household/hamletLeaderLName:label">
+            <value>Jina la ukoo la mwenyekiti wa kitongoji</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify:label">
+            <value>Ni dawa gani zingine zinatumiwa kwenye nyumba hii kuuwa mbu?</value>
+          </text>
+          <text id="/household/viambaza:label">
+            <value>Je viambaza vya nyumba ya kaya hii vimejengwa kwa kutumia nini?</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsOutdoors/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/otherAnimals/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlInside:label">
+            <value>Mna bata ndani?</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensOutside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/roof/99:label">
+            <value>Nyingine</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensIndoors/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/1:label">
+            <value>Mosquito coil</value>
+          </text>
+          <text id="/household/hhEnvGrp/openEaves/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/numDogsOrCatsOutside:label">
+            <value>Mna mbwa au paka wangapi nje?</value>
+          </text>
+          <text id="/household/carOrTractor/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/waterSource/6:label">
+            <value>Mto au chemichemi</value>
+          </text>
+          <text id="/household/wardrobe:label">
+            <value>Kabari la nguo</value>
+          </text>
+          <text id="/household/toiletType/4:label">
+            <value>Nje/Porini</value>
+          </text>
+          <text id="/household/hohFName:label">
+            <value>Jina la kwanza la mkuu wa kaya</value>
+          </text>
+          <text id="/household/radio/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/windowNetting/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlOutside/1:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepInside/2:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlOutside:label">
+            <value>Mna bata nje?</value>
+          </text>
+        </translation>
+        <translation lang="English">
+          <text id="/household/hhListingGrp/memberRpt/memberLName:label">
+            <value>Member Surname</value>
+          </text>
+          <text id="/household/fowls/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/floor/3:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/2:label">
+            <value>Government Health Centre</value>
+          </text>
+          <text id="/household/hhEnvGrp/numFowls:label">
+            <value>How many ducks/turkeys do you have inside?</value>
+          </text>
+          <text id="/household/hhEnvGrp/everSprayedIRS:label">
+            <value>Has this house ever been sprayed with IRS?</value>
+          </text>
+          <text id="/household/goats/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepHere/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/openEaves/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/waterSourceOther:label">
+            <value>-</value>
+          </text>
+          <text id="/household/educationLevelHoH:hint">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsOutside:label">
+            <value>Do you have dogs or cats inside?</value>
+          </text>
+          <text id="/household/viambaza/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/interviewerName:label">
+            <value>Interviewer Name</value>
+          </text>
+          <text id="/household/hhEnvGrp/everSprayedIRS/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hohLName:label">
+            <value>Head of Houses Surname</value>
+          </text>
+          <text id="/household/fowls/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/viambaza/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/1:label">
+            <value>Government Hospital</value>
+          </text>
+          <text id="/household/hhEnvGrp/everSprayedIRS/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsOutside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/sofa/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/net/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/floor:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/windows:label">
+            <value>How many windows are there?</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsInside/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="/household/fowls:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepOutside:label">
+            <value>Do you have goats or sheep inside?</value>
+          </text>
+          <text id="/household/waterSource/5:label">
+            <value>-</value>
+          </text>
+          <text id="/household/wardrobe/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/numCowsOutdoors:label">
+            <value>How many cows do you have indoors?</value>
+          </text>
+          <text id="/household/mattress/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hamletLeaderMName:label">
+            <value>Hamlet Leader Middle name</value>
+          </text>
+          <text id="/household/toiletType/98:label">
+            <value>-</value>
+          </text>
+          <text id="/household/viambaza/4:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/height:label">
+            <value>What is the height above ground?</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsInHouse/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/outdoorTime:label">
+            <value>What time did <output value=" /household/hhListingGrp/memberRpt/memberFName "/> first go outdoors?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/seekTreatment:label">
+            <value>Did you seek advise/treatment for the fever from any source?</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/otherAnimals:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/11:label">
+            <value>Traditional healer</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/viambazaOther:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepHere/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/goats:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlOutside/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/goats/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/cookingFuel/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensOutside/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/roof/98:label">
+            <value>-</value>
+          </text>
+          <text id="/household/otherAnimals/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/numChickensOutside:label">
+            <value>How many chickens do you have inside?</value>
+          </text>
+          <text id="/household/educationLevelHoH:label">
+            <value>How educated is the head of house</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleptOutside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/watch:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleptOutside:label">
+            <value>In the past one month has <output value=" /household/hhListingGrp/memberRpt/memberFName "/> slept outside of this house?</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsOutHouse:label">
+            <value>Do you keep any animals in the house?</value>
+          </text>
+          <text id="/household/watch/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/waterSource/4:label">
+            <value>-</value>
+          </text>
+          <text id="/household/viambaza/3:label">
+            <value>-</value>
+          </text>
+          <text id="/household/northings:label">
+            <value>GPS Northings</value>
+          </text>
+          <text id="/household/toiletType/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsOutHouse/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/monthLastIRS:label">
+            <value>Which month in <output value=" /household/hhEnvGrp/yearLastIRS "/> did you spray?</value>
+          </text>
+          <text id="/household/village:label">
+            <value>Village</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepHere:label">
+            <value>Did <output value=" /household/hhListingGrp/memberRpt/memberFName "/> sleep here last night?</value>
+          </text>
+          <text id="/household/lightSource/3:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp:label">
+            <value>Household Listing</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/4:label">
+            <value>Mobile/study clinic</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsOutdoors/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensIndoors/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhId:label">
+            <value>Registered household number</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial:label">
+            <value>What are the windows screened with?</value>
+          </text>
+          <text id="/household/sheep/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/roof/3:label">
+            <value>-</value>
+          </text>
+          <text id="/household/roof/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/iron/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleptOutside/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/cookingFuel/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/cows:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsOutside/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/doors:label">
+            <value>How many outside doors are there?</value>
+          </text>
+          <text id="/household/hhEnvGrp/numGoatsOrSheepOutside:label">
+            <value>How many goats or sheep do you have inside?</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsInside:label">
+            <value>Do you have dogs or cats inside?</value>
+          </text>
+          <text id="/household/floor/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/indoorTime:label">
+            <value>What time did <output value=" /household/hhListingGrp/memberRpt/memberFName "/> go indoor for the evening?</value>
+          </text>
+          <text id="/household/mattress/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/dogsOrCatsInside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/radio/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/floorOther:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hohMName:label">
+            <value>Head of House middle name</value>
+          </text>
+          <text id="/household/noteSES:hint">
+            <value>-</value>
+          </text>
+          <text id="/household/radio:label">
+            <value>-</value>
+          </text>
+          <text id="/household/floor/4:label">
+            <value>-</value>
+          </text>
+          <text id="/household/floor/98:label">
+            <value>-</value>
+          </text>
+          <text id="/household/cookingFuel/4:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlInside/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/lightSource:label">
+            <value>-</value>
+          </text>
+          <text id="/household/toiletTypeOther:label">
+            <value>-</value>
+          </text>
+          <text id="/household/roof:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/2:label">
+            <value>Insecticidal spray</value>
+          </text>
+          <text id="/household/carOrTractor:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsIndoors:label">
+            <value>Do you have cows indoors?</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlInside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/nearestHF:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/windowNetting:label">
+            <value>Are the windows screened with netting?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/12:label">
+            <value>Not Applicable</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide:label">
+            <value>Is there any other insecticidal product used by the owner?</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsOutdoors:label">
+            <value>Do you have cows indoors?</value>
+          </text>
+          <text id="/household/toiletType/3:label">
+            <value>-</value>
+          </text>
+          <text id="/household/lightSource/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensIndoors:label">
+            <value>Do you have chickens indoors?</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterialOther:label">
+            <value>What are the windows screened with?</value>
+          </text>
+          <text id="/household/mattress:label">
+            <value>-</value>
+          </text>
+          <text id="/household/bed/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/viambaza/98:label">
+            <value>-</value>
+          </text>
+          <text id="/household/floor/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/memberFName:label">
+            <value>Member First Name</value>
+          </text>
+          <text id="/household/waterSource/3:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHWetSeason:label">
+            <value>Do you usually light a fire inside the house during wet season?</value>
+          </text>
+          <text id="/household/lightSource/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/floor/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/fever:label">
+            <value>Has <output value=" /household/hhListingGrp/memberRpt/memberFName "/> been ill with fever in the last two weeks?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/seekTreatment/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/wakeTime:label">
+            <value>What time did <output value=" /household/hhListingGrp/memberRpt/memberFName "/> get out of bed this morning?</value>
+          </text>
+          <text id="/household/sheep/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/bicycle/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/10:label">
+            <value>Normal Shop</value>
+          </text>
+          <text id="/household/noteSES:label">
+            <value>-</value>
+          </text>
+          <text id="/household/watch/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/height:hint">
+            <value>In Metres</value>
+          </text>
+          <text id="/household/hhEnvGrp/numGoatsOrSheep:label">
+            <value>How many goats or sheep do you have inside?</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/7:label">
+            <value>Private/Religious hospital</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/99:label">
+            <value>Other</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/6:label">
+            <value>WAVI/Community health workers</value>
+          </text>
+          <text id="/household/iron:label">
+            <value>-</value>
+          </text>
+          <text id="/household/otherAnimals/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/8:label">
+            <value>Private/Religious Dispensary</value>
+          </text>
+          <text id="/household/hhEnvGrp/openEaves:label">
+            <value>Does the house have open eaves?</value>
+          </text>
+          <text id="/household/net/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepOutside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/bed/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/sheep:label">
+            <value>-</value>
+          </text>
+          <text id="/household/toiletType/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepOutside/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/eastings:label">
+            <value>GPS Eastings</value>
+          </text>
+          <text id="/household/hhEnvGrp/numCowsIndoors:label">
+            <value>How many cows do you have indoors?</value>
+          </text>
+          <text id="/household/viambaza/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/waterSource/7:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsIndoors/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/cookingFuel/98:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/fever/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHWetSeason/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHWetSeason/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/fever/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/numDogsOrCats:label">
+            <value>How many dogs or cats do you have inside?</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHDrySeason/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHDrySeason/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/roof/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/memberMName:label">
+            <value>Member Middle name</value>
+          </text>
+          <text id="/household/lightSourceOther:label">
+            <value>-</value>
+          </text>
+          <text id="/household/carOrTractor/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/toiletType/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/9:label">
+            <value>Medical stores/Duka la dawa baridi</value>
+          </text>
+          <text id="/household/hhEnvGrp/numFowlsOutside:label">
+            <value>How many ducks/turkeys do you have inside?</value>
+          </text>
+          <text id="/household/motorcycle/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/motorcycle/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/3:label">
+            <value>Emanator</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsIndoors/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensOutside:label">
+            <value>Do you have chickens indoors?</value>
+          </text>
+          <text id="/household/waterSource/2:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/screenMaterial/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepInside:label">
+            <value>Do you have goats or sheep inside?</value>
+          </text>
+          <text id="/household/lightSource/98:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/windowNetting/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/waterSource/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/waterSource/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsInHouse/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/3:label">
+            <value>Government Dispensary</value>
+          </text>
+          <text id="/household/cows/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/cookingFuel/3:label">
+            <value>-</value>
+          </text>
+          <text id="/household/waterSource:label">
+            <value>-</value>
+          </text>
+          <text id="/household/waterSource/98:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsOutHouse/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/sleepTime:label">
+            <value>What time did <output value=" /household/hhListingGrp/memberRpt/memberFName "/> go to sleep?</value>
+          </text>
+          <text id="/household/cows/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated/5:label">
+            <value>Field worker</value>
+          </text>
+          <text id="/household/interviewDate:label">
+            <value>Date</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/whereTreated:label">
+            <value>Where did you seek advice/treatment?</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide/98:label">
+            <value>Does not know</value>
+          </text>
+          <text id="/household/roofOther:label">
+            <value>-</value>
+          </text>
+          <text id="/household/bed:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/animalsInHouse:label">
+            <value>Do you keep any animals in the house?</value>
+          </text>
+          <text id="/household/hhEnvGrp/fireInHHDrySeason:label">
+            <value>Do you usually light a fire inside the house during dry season?</value>
+          </text>
+          <text id="/household/wardrobe/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/toiletType:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hamletLeaderFName:label">
+            <value>Hamlet Leader first nanme</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/memberId:label">
+            <value>Member ID</value>
+          </text>
+          <text id="/household/hamlet:label">
+            <value>Hamlet</value>
+          </text>
+          <text id="/household/cookingFuelOther:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/4:label">
+            <value>Burning leaves</value>
+          </text>
+          <text id="/household/cookingFuel:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt:label">
+            <value>Household Members</value>
+          </text>
+          <text id="/household/bicycle/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/bicycle:label">
+            <value>-</value>
+          </text>
+          <text id="/household/sofa:label">
+            <value>-</value>
+          </text>
+          <text id="/household/lightSource/99:label">
+            <value>-</value>
+          </text>
+          <text id="/household/roof:hint">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/numChickens:label">
+            <value>How many chickens do you have inside?</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepInside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/viambaza:label">
+            <value>-</value>
+          </text>
+          <text id="/household/net:label">
+            <value>-</value>
+          </text>
+          <text id="/household/motorcycle:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/yearLastIRS:label">
+            <value>What year was the house last sprayed with IRS</value>
+          </text>
+          <text id="/household/iron/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/roof/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hamletLeaderLName:label">
+            <value>Hamlet leader surname</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify:label">
+            <value>What other insecticidal products are used by homeowner?</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensIndoors/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/cowsOutdoors/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/sofa/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/cookingFuel/1:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlInside:label">
+            <value>Do you have ducks/turkeys inside?</value>
+          </text>
+          <text id="/household/hhEnvGrp/chickensOutside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhListingGrp/memberRpt/seekTreatment/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlOutside:label">
+            <value>Do you have ducks/turkeys inside?</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticideSpecify/1:label">
+            <value>Mosquito coil</value>
+          </text>
+          <text id="/household/hhEnvGrp/openEaves/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/otherInsecticide/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/numDogsOrCatsOutside:label">
+            <value>How many dogs or cats do you have inside?</value>
+          </text>
+          <text id="/household/carOrTractor/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/waterSource/6:label">
+            <value>-</value>
+          </text>
+          <text id="/household/wardrobe:label">
+            <value>-</value>
+          </text>
+          <text id="/household/toiletType/4:label">
+            <value>-</value>
+          </text>
+          <text id="/household/hohFName:label">
+            <value>Head of Houses first name</value>
+          </text>
+          <text id="/household/radio/2:label">
+            <value>No</value>
+          </text>
+          <text id="/household/hhEnvGrp/windowNetting/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/fowlOutside/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/household/hhEnvGrp/goatOrSheepInside/2:label">
+            <value>No</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <household id="household_survey">
+          <interviewDate/>
+          <interviewerName/>
+          <hamletLeaderFName/>
+          <hamletLeaderMName/>
+          <hamletLeaderLName/>
+          <ward/>
+          <village/>
+          <hamlet/>
+          <hhId/>
+          <northings/>
+          <eastings/>
+          <hohFName/>
+          <hohMName/>
+          <hohLName/>
+          <educationLevelHoH/>
+          <floor/>
+          <floorOther/>
+          <viambaza/>
+          <viambazaOther/>
+          <roof/>
+          <roofOther/>
+          <cookingFuel/>
+          <cookingFuelOther/>
+          <waterSource/>
+          <waterSourceOther/>
+          <toiletType/>
+          <toiletTypeOther/>
+          <lightSource/>
+          <lightSourceOther/>
+          <noteSES/>
+          <fowls/>
+          <cows/>
+          <goats/>
+          <sheep/>
+          <otherAnimals/>
+          <bed/>
+          <mattress/>
+          <net/>
+          <wardrobe/>
+          <sofa/>
+          <watch/>
+          <iron/>
+          <radio/>
+          <bicycle/>
+          <motorcycle/>
+          <carOrTractor/>
+          <nearestHF/>
+          <hhEnvGrp>
+            <openEaves/>
+            <height/>
+            <windows/>
+            <windowNetting/>
+            <screenMaterial/>
+            <screenMaterialOther/>
+            <doors/>
+            <fireInHHDrySeason/>
+            <fireInHHWetSeason/>
+            <animalsInHouse/>
+            <cowsIndoors/>
+            <numCowsIndoors/>
+            <chickensIndoors/>
+            <numChickens/>
+            <fowlInside/>
+            <numFowls/>
+            <goatOrSheepInside/>
+            <numGoatsOrSheep/>
+            <dogsOrCatsInside/>
+            <numDogsOrCats/>
+            <animalsOutHouse/>
+            <cowsOutdoors/>
+            <numCowsOutdoors/>
+            <chickensOutside/>
+            <numChickensOutside/>
+            <fowlOutside/>
+            <numFowlsOutside/>
+            <goatOrSheepOutside/>
+            <numGoatsOrSheepOutside/>
+            <dogsOrCatsOutside/>
+            <numDogsOrCatsOutside/>
+            <everSprayedIRS/>
+            <yearLastIRS/>
+            <monthLastIRS/>
+            <otherInsecticide/>
+            <otherInsecticideSpecify/>
+          </hhEnvGrp>
+          <hhListingGrp>
+            <memberRpt jr:template="">
+              <memberId/>
+              <memberFName/>
+              <memberMName/>
+              <memberLName/>
+              <sleepHere/>
+              <indoorTime/>
+              <sleepTime/>
+              <wakeTime/>
+              <outdoorTime/>
+              <sleptOutside/>
+              <fever/>
+              <seekTreatment/>
+              <whereTreated/>
+            </memberRpt>
+          </hhListingGrp>
+          <meta>
+            <instanceID/>
+          </meta>
+        </household>
+      </instance>
+      <bind nodeset="/household/interviewDate" required="true()" type="date"/>
+      <bind nodeset="/household/interviewerName" required="true()" type="string"/>
+      <bind nodeset="/household/hamletLeaderFName" required="true()" type="string"/>
+      <bind nodeset="/household/hamletLeaderMName" required="true()" type="string"/>
+      <bind nodeset="/household/hamletLeaderLName" required="true()" type="string"/>
+      <bind nodeset="/household/ward" required="true()" type="string"/>
+      <bind nodeset="/household/village" required="true()" type="string"/>
+      <bind nodeset="/household/hamlet" required="true()" type="string"/>
+      <bind nodeset="/household/hhId" required="true()" type="string"/>
+      <bind nodeset="/household/northings" required="true()" type="string"/>
+      <bind nodeset="/household/eastings" required="true()" type="string"/>
+      <bind nodeset="/household/hohFName" required="true()" type="string"/>
+      <bind nodeset="/household/hohMName" required="true()" type="string"/>
+      <bind nodeset="/household/hohLName" required="true()" type="string"/>
+      <bind nodeset="/household/educationLevelHoH" required="true()" type="int"/>
+      <bind nodeset="/household/floor" required="true()" type="select1"/>
+      <bind nodeset="/household/floorOther" relevant=" /household/floor ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/viambaza" required="true()" type="select1"/>
+      <bind nodeset="/household/viambazaOther" relevant=" /household/viambaza ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/roof" required="true()" type="select1"/>
+      <bind nodeset="/household/roofOther" relevant=" /household/roof ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/cookingFuel" required="true()" type="select1"/>
+      <bind nodeset="/household/cookingFuelOther" relevant=" /household/cookingFuel ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/waterSource" required="true()" type="select1"/>
+      <bind nodeset="/household/waterSourceOther" relevant=" /household/waterSource ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/toiletType" required="true()" type="select1"/>
+      <bind nodeset="/household/toiletTypeOther" relevant=" /household/toiletType ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/lightSource" required="true()" type="select1"/>
+      <bind nodeset="/household/lightSourceOther" relevant=" /household/lightSource ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/noteSES" readonly="true()" type="string"/>
+      <bind nodeset="/household/fowls" required="true()" type="select1"/>
+      <bind nodeset="/household/cows" required="true()" type="select1"/>
+      <bind nodeset="/household/goats" required="true()" type="select1"/>
+      <bind nodeset="/household/sheep" required="true()" type="select1"/>
+      <bind nodeset="/household/otherAnimals" required="true()" type="select1"/>
+      <bind nodeset="/household/bed" required="true()" type="select1"/>
+      <bind nodeset="/household/mattress" required="true()" type="select1"/>
+      <bind nodeset="/household/net" required="true()" type="select1"/>
+      <bind nodeset="/household/wardrobe" required="true()" type="select1"/>
+      <bind nodeset="/household/sofa" required="true()" type="select1"/>
+      <bind nodeset="/household/watch" required="true()" type="select1"/>
+      <bind nodeset="/household/iron" required="true()" type="select1"/>
+      <bind nodeset="/household/radio" required="true()" type="select1"/>
+      <bind nodeset="/household/bicycle" required="true()" type="select1"/>
+      <bind nodeset="/household/motorcycle" required="true()" type="select1"/>
+      <bind nodeset="/household/carOrTractor" required="true()" type="select1"/>
+      <bind nodeset="/household/nearestHF" required="true()" type="string"/>
+      <bind nodeset="/household/hhEnvGrp/openEaves" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/height" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/windows" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/windowNetting" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/screenMaterial" relevant=" /household/hhEnvGrp/windowNetting ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/screenMaterialOther" relevant=" /household/hhEnvGrp/screenMaterial ='99'" required="true()" type="string"/>
+      <bind nodeset="/household/hhEnvGrp/doors" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/fireInHHDrySeason" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/fireInHHWetSeason" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/animalsInHouse" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/cowsIndoors" relevant=" /household/hhEnvGrp/animalsInHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numCowsIndoors" relevant=" /household/hhEnvGrp/cowsIndoors ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/chickensIndoors" relevant=" /household/hhEnvGrp/animalsInHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numChickens" relevant=" /household/hhEnvGrp/chickensIndoors ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/fowlInside" relevant=" /household/hhEnvGrp/animalsInHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numFowls" relevant=" /household/hhEnvGrp/fowlInside ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/goatOrSheepInside" relevant=" /household/hhEnvGrp/animalsInHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numGoatsOrSheep" relevant=" /household/hhEnvGrp/goatOrSheepInside ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/dogsOrCatsInside" relevant=" /household/hhEnvGrp/animalsInHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numDogsOrCats" relevant=" /household/hhEnvGrp/dogsOrCatsInside ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/animalsOutHouse" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/cowsOutdoors" relevant=" /household/hhEnvGrp/animalsOutHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numCowsOutdoors" relevant=" /household/hhEnvGrp/cowsOutdoors ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/chickensOutside" relevant=" /household/hhEnvGrp/animalsOutHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numChickensOutside" relevant=" /household/hhEnvGrp/chickensOutside ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/fowlOutside" relevant=" /household/hhEnvGrp/animalsOutHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numFowlsOutside" relevant=" /household/hhEnvGrp/fowlOutside ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/goatOrSheepOutside" relevant=" /household/hhEnvGrp/animalsOutHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numGoatsOrSheepOutside" relevant=" /household/hhEnvGrp/goatOrSheepOutside ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/dogsOrCatsOutside" relevant=" /household/hhEnvGrp/animalsOutHouse ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/numDogsOrCatsOutside" relevant=" /household/hhEnvGrp/dogsOrCatsOutside ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/everSprayedIRS" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/yearLastIRS" relevant=" /household/hhEnvGrp/everSprayedIRS  ='1'" required="true()" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/monthLastIRS" relevant=" /household/hhEnvGrp/everSprayedIRS  ='1'" type="int"/>
+      <bind nodeset="/household/hhEnvGrp/otherInsecticide" required="true()" type="select1"/>
+      <bind nodeset="/household/hhEnvGrp/otherInsecticideSpecify" relevant=" /household/hhEnvGrp/otherInsecticide  ='1'" required="true()" type="select1"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/memberId" required="true()" type="string"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/memberFName" required="true()" type="string"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/memberMName" required="true()" type="string"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/memberLName" required="true()" type="string"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/sleepHere" required="true()" type="select1"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/indoorTime" relevant=" /household/hhListingGrp/memberRpt/sleepHere  ='1'" required="true()" type="time"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/sleepTime" relevant=" /household/hhListingGrp/memberRpt/sleepHere  ='1'" required="true()" type="time"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/wakeTime" relevant=" /household/hhListingGrp/memberRpt/sleepHere  ='1'" required="true()" type="time"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/outdoorTime" relevant=" /household/hhListingGrp/memberRpt/sleepHere  ='1'" required="true()" type="time"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/sleptOutside" required="true()" type="select1"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/fever" required="true()" type="select1"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/seekTreatment" relevant=" /household/hhListingGrp/memberRpt/fever =1" required="true()" type="select1"/>
+      <bind nodeset="/household/hhListingGrp/memberRpt/whereTreated" relevant=" /household/hhListingGrp/memberRpt/seekTreatment =1" required="true()" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/household/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/household/interviewDate">
+      <label ref="jr:itext('/household/interviewDate:label')"/>
+    </input>
+    <input ref="/household/interviewerName">
+      <label ref="jr:itext('/household/interviewerName:label')"/>
+    </input>
+    <input ref="/household/hamletLeaderFName">
+      <label ref="jr:itext('/household/hamletLeaderFName:label')"/>
+    </input>
+    <input ref="/household/hamletLeaderMName">
+      <label ref="jr:itext('/household/hamletLeaderMName:label')"/>
+    </input>
+    <input ref="/household/hamletLeaderLName">
+      <label ref="jr:itext('/household/hamletLeaderLName:label')"/>
+    </input>
+    <input ref="/household/ward">
+      <label ref="jr:itext('/household/ward:label')"/>
+    </input>
+    <input ref="/household/village">
+      <label ref="jr:itext('/household/village:label')"/>
+    </input>
+    <input ref="/household/hamlet">
+      <label ref="jr:itext('/household/hamlet:label')"/>
+    </input>
+    <input ref="/household/hhId">
+      <label ref="jr:itext('/household/hhId:label')"/>
+    </input>
+    <input appearance="numbers" ref="/household/northings">
+      <label ref="jr:itext('/household/northings:label')"/>
+    </input>
+    <input appearance="numbers" ref="/household/eastings">
+      <label ref="jr:itext('/household/eastings:label')"/>
+    </input>
+    <input ref="/household/hohFName">
+      <label ref="jr:itext('/household/hohFName:label')"/>
+    </input>
+    <input ref="/household/hohMName">
+      <label ref="jr:itext('/household/hohMName:label')"/>
+    </input>
+    <input ref="/household/hohLName">
+      <label ref="jr:itext('/household/hohLName:label')"/>
+    </input>
+    <input ref="/household/educationLevelHoH">
+      <label ref="jr:itext('/household/educationLevelHoH:label')"/>
+      <hint ref="jr:itext('/household/educationLevelHoH:hint')"/>
+    </input>
+    <select1 ref="/household/floor">
+      <label ref="jr:itext('/household/floor:label')"/>
+      <item>
+        <label ref="jr:itext('/household/floor/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/floor/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/floor/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/floor/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/floor/99:label')"/>
+        <value>99</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/floor/98:label')"/>
+        <value>98</value>
+      </item>
+    </select1>
+    <input ref="/household/floorOther">
+      <label ref="jr:itext('/household/floorOther:label')"/>
+    </input>
+    <select1 ref="/household/viambaza">
+      <label ref="jr:itext('/household/viambaza:label')"/>
+      <item>
+        <label ref="jr:itext('/household/viambaza/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/viambaza/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/viambaza/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/viambaza/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/viambaza/99:label')"/>
+        <value>99</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/viambaza/98:label')"/>
+        <value>98</value>
+      </item>
+    </select1>
+    <input ref="/household/viambazaOther">
+      <label ref="jr:itext('/household/viambazaOther:label')"/>
+    </input>
+    <select1 ref="/household/roof">
+      <label ref="jr:itext('/household/roof:label')"/>
+      <hint ref="jr:itext('/household/roof:hint')"/>
+      <item>
+        <label ref="jr:itext('/household/roof/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/roof/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/roof/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/roof/99:label')"/>
+        <value>99</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/roof/98:label')"/>
+        <value>98</value>
+      </item>
+    </select1>
+    <input ref="/household/roofOther">
+      <label ref="jr:itext('/household/roofOther:label')"/>
+    </input>
+    <select1 ref="/household/cookingFuel">
+      <label ref="jr:itext('/household/cookingFuel:label')"/>
+      <item>
+        <label ref="jr:itext('/household/cookingFuel/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/cookingFuel/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/cookingFuel/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/cookingFuel/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/cookingFuel/99:label')"/>
+        <value>99</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/cookingFuel/98:label')"/>
+        <value>98</value>
+      </item>
+    </select1>
+    <input ref="/household/cookingFuelOther">
+      <label ref="jr:itext('/household/cookingFuelOther:label')"/>
+    </input>
+    <select1 ref="/household/waterSource">
+      <label ref="jr:itext('/household/waterSource:label')"/>
+      <item>
+        <label ref="jr:itext('/household/waterSource/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/5:label')"/>
+        <value>5</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/6:label')"/>
+        <value>6</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/7:label')"/>
+        <value>7</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/99:label')"/>
+        <value>99</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/waterSource/98:label')"/>
+        <value>98</value>
+      </item>
+    </select1>
+    <input ref="/household/waterSourceOther">
+      <label ref="jr:itext('/household/waterSourceOther:label')"/>
+    </input>
+    <select1 ref="/household/toiletType">
+      <label ref="jr:itext('/household/toiletType:label')"/>
+      <item>
+        <label ref="jr:itext('/household/toiletType/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/toiletType/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/toiletType/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/toiletType/4:label')"/>
+        <value>4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/toiletType/99:label')"/>
+        <value>99</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/toiletType/98:label')"/>
+        <value>98</value>
+      </item>
+    </select1>
+    <input ref="/household/toiletTypeOther">
+      <label ref="jr:itext('/household/toiletTypeOther:label')"/>
+    </input>
+    <select1 ref="/household/lightSource">
+      <label ref="jr:itext('/household/lightSource:label')"/>
+      <item>
+        <label ref="jr:itext('/household/lightSource/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/lightSource/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/lightSource/3:label')"/>
+        <value>3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/lightSource/99:label')"/>
+        <value>99</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/lightSource/98:label')"/>
+        <value>98</value>
+      </item>
+    </select1>
+    <input ref="/household/lightSourceOther">
+      <label ref="jr:itext('/household/lightSourceOther:label')"/>
+    </input>
+    <input ref="/household/noteSES">
+      <label ref="jr:itext('/household/noteSES:label')"/>
+      <hint ref="jr:itext('/household/noteSES:hint')"/>
+    </input>
+    <select1 appearance="quick" ref="/household/fowls">
+      <label ref="jr:itext('/household/fowls:label')"/>
+      <item>
+        <label ref="jr:itext('/household/fowls/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/fowls/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/cows">
+      <label ref="jr:itext('/household/cows:label')"/>
+      <item>
+        <label ref="jr:itext('/household/cows/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/cows/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/goats">
+      <label ref="jr:itext('/household/goats:label')"/>
+      <item>
+        <label ref="jr:itext('/household/goats/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/goats/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/sheep">
+      <label ref="jr:itext('/household/sheep:label')"/>
+      <item>
+        <label ref="jr:itext('/household/sheep/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/sheep/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/otherAnimals">
+      <label ref="jr:itext('/household/otherAnimals:label')"/>
+      <item>
+        <label ref="jr:itext('/household/otherAnimals/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/otherAnimals/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/bed">
+      <label ref="jr:itext('/household/bed:label')"/>
+      <item>
+        <label ref="jr:itext('/household/bed/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/bed/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/mattress">
+      <label ref="jr:itext('/household/mattress:label')"/>
+      <item>
+        <label ref="jr:itext('/household/mattress/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/mattress/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/net">
+      <label ref="jr:itext('/household/net:label')"/>
+      <item>
+        <label ref="jr:itext('/household/net/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/net/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/wardrobe">
+      <label ref="jr:itext('/household/wardrobe:label')"/>
+      <item>
+        <label ref="jr:itext('/household/wardrobe/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/wardrobe/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/sofa">
+      <label ref="jr:itext('/household/sofa:label')"/>
+      <item>
+        <label ref="jr:itext('/household/sofa/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/sofa/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/watch">
+      <label ref="jr:itext('/household/watch:label')"/>
+      <item>
+        <label ref="jr:itext('/household/watch/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/watch/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/iron">
+      <label ref="jr:itext('/household/iron:label')"/>
+      <item>
+        <label ref="jr:itext('/household/iron/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/iron/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/radio">
+      <label ref="jr:itext('/household/radio:label')"/>
+      <item>
+        <label ref="jr:itext('/household/radio/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/radio/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/bicycle">
+      <label ref="jr:itext('/household/bicycle:label')"/>
+      <item>
+        <label ref="jr:itext('/household/bicycle/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/bicycle/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/motorcycle">
+      <label ref="jr:itext('/household/motorcycle:label')"/>
+      <item>
+        <label ref="jr:itext('/household/motorcycle/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/motorcycle/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 appearance="quick" ref="/household/carOrTractor">
+      <label ref="jr:itext('/household/carOrTractor:label')"/>
+      <item>
+        <label ref="jr:itext('/household/carOrTractor/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household/carOrTractor/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <input ref="/household/nearestHF">
+      <label ref="jr:itext('/household/nearestHF:label')"/>
+    </input>
+    <group ref="/household/hhEnvGrp">
+      <label ref="jr:itext('/household/hhEnvGrp:label')"/>
+      <select1 ref="/household/hhEnvGrp/openEaves">
+        <label ref="jr:itext('/household/hhEnvGrp/openEaves:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/openEaves/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/openEaves/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/height">
+        <label ref="jr:itext('/household/hhEnvGrp/height:label')"/>
+        <hint ref="jr:itext('/household/hhEnvGrp/height:hint')"/>
+      </input>
+      <input ref="/household/hhEnvGrp/windows">
+        <label ref="jr:itext('/household/hhEnvGrp/windows:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/windowNetting">
+        <label ref="jr:itext('/household/hhEnvGrp/windowNetting:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/windowNetting/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/windowNetting/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/household/hhEnvGrp/screenMaterial">
+        <label ref="jr:itext('/household/hhEnvGrp/screenMaterial:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/screenMaterial/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/screenMaterial/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/screenMaterial/99:label')"/>
+          <value>99</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/screenMaterialOther">
+        <label ref="jr:itext('/household/hhEnvGrp/screenMaterialOther:label')"/>
+      </input>
+      <input ref="/household/hhEnvGrp/doors">
+        <label ref="jr:itext('/household/hhEnvGrp/doors:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/fireInHHDrySeason">
+        <label ref="jr:itext('/household/hhEnvGrp/fireInHHDrySeason:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fireInHHDrySeason/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fireInHHDrySeason/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/household/hhEnvGrp/fireInHHWetSeason">
+        <label ref="jr:itext('/household/hhEnvGrp/fireInHHWetSeason:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fireInHHWetSeason/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fireInHHWetSeason/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/household/hhEnvGrp/animalsInHouse">
+        <label ref="jr:itext('/household/hhEnvGrp/animalsInHouse:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/animalsInHouse/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/animalsInHouse/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/household/hhEnvGrp/cowsIndoors">
+        <label ref="jr:itext('/household/hhEnvGrp/cowsIndoors:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/cowsIndoors/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/cowsIndoors/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numCowsIndoors">
+        <label ref="jr:itext('/household/hhEnvGrp/numCowsIndoors:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/chickensIndoors">
+        <label ref="jr:itext('/household/hhEnvGrp/chickensIndoors:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/chickensIndoors/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/chickensIndoors/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numChickens">
+        <label ref="jr:itext('/household/hhEnvGrp/numChickens:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/fowlInside">
+        <label ref="jr:itext('/household/hhEnvGrp/fowlInside:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fowlInside/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fowlInside/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numFowls">
+        <label ref="jr:itext('/household/hhEnvGrp/numFowls:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/goatOrSheepInside">
+        <label ref="jr:itext('/household/hhEnvGrp/goatOrSheepInside:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/goatOrSheepInside/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/goatOrSheepInside/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numGoatsOrSheep">
+        <label ref="jr:itext('/household/hhEnvGrp/numGoatsOrSheep:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/dogsOrCatsInside">
+        <label ref="jr:itext('/household/hhEnvGrp/dogsOrCatsInside:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/dogsOrCatsInside/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/dogsOrCatsInside/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numDogsOrCats">
+        <label ref="jr:itext('/household/hhEnvGrp/numDogsOrCats:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/animalsOutHouse">
+        <label ref="jr:itext('/household/hhEnvGrp/animalsOutHouse:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/animalsOutHouse/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/animalsOutHouse/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/household/hhEnvGrp/cowsOutdoors">
+        <label ref="jr:itext('/household/hhEnvGrp/cowsOutdoors:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/cowsOutdoors/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/cowsOutdoors/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numCowsOutdoors">
+        <label ref="jr:itext('/household/hhEnvGrp/numCowsOutdoors:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/chickensOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/chickensOutside:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/chickensOutside/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/chickensOutside/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numChickensOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/numChickensOutside:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/fowlOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/fowlOutside:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fowlOutside/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/fowlOutside/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numFowlsOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/numFowlsOutside:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/goatOrSheepOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/goatOrSheepOutside:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/goatOrSheepOutside/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/goatOrSheepOutside/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numGoatsOrSheepOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/numGoatsOrSheepOutside:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/dogsOrCatsOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/dogsOrCatsOutside:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/dogsOrCatsOutside/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/dogsOrCatsOutside/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/numDogsOrCatsOutside">
+        <label ref="jr:itext('/household/hhEnvGrp/numDogsOrCatsOutside:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/everSprayedIRS">
+        <label ref="jr:itext('/household/hhEnvGrp/everSprayedIRS:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/everSprayedIRS/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/everSprayedIRS/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/household/hhEnvGrp/yearLastIRS">
+        <label ref="jr:itext('/household/hhEnvGrp/yearLastIRS:label')"/>
+      </input>
+      <input ref="/household/hhEnvGrp/monthLastIRS">
+        <label ref="jr:itext('/household/hhEnvGrp/monthLastIRS:label')"/>
+      </input>
+      <select1 ref="/household/hhEnvGrp/otherInsecticide">
+        <label ref="jr:itext('/household/hhEnvGrp/otherInsecticide:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticide/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticide/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticide/98:label')"/>
+          <value>98</value>
+        </item>
+      </select1>
+      <select1 ref="/household/hhEnvGrp/otherInsecticideSpecify">
+        <label ref="jr:itext('/household/hhEnvGrp/otherInsecticideSpecify:label')"/>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticideSpecify/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticideSpecify/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticideSpecify/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticideSpecify/4:label')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/household/hhEnvGrp/otherInsecticideSpecify/99:label')"/>
+          <value>99</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/household/hhListingGrp">
+      <label ref="jr:itext('/household/hhListingGrp:label')"/>
+      <group ref="/household/hhListingGrp/memberRpt">
+        <label ref="jr:itext('/household/hhListingGrp/memberRpt:label')"/>
+        <repeat nodeset="/household/hhListingGrp/memberRpt">
+          <input ref="/household/hhListingGrp/memberRpt/memberId">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/memberId:label')"/>
+          </input>
+          <input ref="/household/hhListingGrp/memberRpt/memberFName">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/memberFName:label')"/>
+          </input>
+          <input ref="/household/hhListingGrp/memberRpt/memberMName">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/memberMName:label')"/>
+          </input>
+          <input ref="/household/hhListingGrp/memberRpt/memberLName">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/memberLName:label')"/>
+          </input>
+          <select1 ref="/household/hhListingGrp/memberRpt/sleepHere">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/sleepHere:label')"/>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/sleepHere/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/sleepHere/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <input ref="/household/hhListingGrp/memberRpt/indoorTime">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/indoorTime:label')"/>
+          </input>
+          <input ref="/household/hhListingGrp/memberRpt/sleepTime">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/sleepTime:label')"/>
+          </input>
+          <input ref="/household/hhListingGrp/memberRpt/wakeTime">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/wakeTime:label')"/>
+          </input>
+          <input ref="/household/hhListingGrp/memberRpt/outdoorTime">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/outdoorTime:label')"/>
+          </input>
+          <select1 ref="/household/hhListingGrp/memberRpt/sleptOutside">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/sleptOutside:label')"/>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/sleptOutside/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/sleptOutside/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <select1 ref="/household/hhListingGrp/memberRpt/fever">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/fever:label')"/>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/fever/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/fever/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <select1 ref="/household/hhListingGrp/memberRpt/seekTreatment">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/seekTreatment:label')"/>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/seekTreatment/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/seekTreatment/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <select1 ref="/household/hhListingGrp/memberRpt/whereTreated">
+            <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated:label')"/>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/2:label')"/>
+              <value>2</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/3:label')"/>
+              <value>3</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/4:label')"/>
+              <value>4</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/5:label')"/>
+              <value>5</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/6:label')"/>
+              <value>6</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/7:label')"/>
+              <value>7</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/8:label')"/>
+              <value>8</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/9:label')"/>
+              <value>9</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/10:label')"/>
+              <value>10</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/11:label')"/>
+              <value>11</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/household/hhListingGrp/memberRpt/whereTreated/12:label')"/>
+              <value>12</value>
+            </item>
+          </select1>
+        </repeat>
+      </group>
+    </group>
+  </h:body>
+</h:html>

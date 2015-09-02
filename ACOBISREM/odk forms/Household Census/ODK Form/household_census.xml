@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>ACOBISREM Household Census</h:title>
+    <model>
+      <itext>
+        <translation lang="Swahili">
+          <text id="static_instance-village-0">
+            <value>Mohoro Magharibi</value>
+          </text>
+          <text id="static_instance-hamlet-30">
+            <value>Chayonge</value>
+          </text>
+          <text id="static_instance-village-4">
+            <value>Kiwanga</value>
+          </text>
+          <text id="/household_census/hohLastName:label">
+            <value>Jina la ukoo la mkuu wa kaya</value>
+          </text>
+          <text id="static_instance-fw-4">
+            <value>Sada Kihambwe</value>
+          </text>
+          <text id="/household_census/householdNumber:hint">
+            <value>Ingiza tarakimu sita zikitanguliwa na sifuri kushoto ikihitajika, kwa mfano 000042 kwa kaya namba 42</value>
+          </text>
+          <text id="static_instance-fw-2">
+            <value>Jumanne Kinjumbi</value>
+          </text>
+          <text id="static_instance-fw-1">
+            <value>Mohamedi Ngayakia</value>
+          </text>
+          <text id="static_instance-hamlet-36">
+            <value>Kiwanga Nyale</value>
+          </text>
+          <text id="/household_census/interviewer/SKI:label">
+            <value>Sada Kihambwe</value>
+          </text>
+          <text id="/household_census/eastings:label">
+            <value>Eastings</value>
+          </text>
+          <text id="static_instance-fw-0">
+            <value>Manitu Mkumba</value>
+          </text>
+          <text id="static_instance-village-7">
+            <value>Chumbi C</value>
+          </text>
+          <text id="static_instance-hamlet-9">
+            <value>Kipoka</value>
+          </text>
+          <text id="static_instance-village-3">
+            <value>King’ongo</value>
+          </text>
+          <text id="static_instance-hamlet-31">
+            <value>Kwa Mpakaliwa</value>
+          </text>
+          <text id="static_instance-village-6">
+            <value>Chumbi B</value>
+          </text>
+          <text id="/household_census/interviewer/MMK:label">
+            <value>Manitu Mkumba</value>
+          </text>
+          <text id="static_instance-hamlet-23">
+            <value>Nyautika</value>
+          </text>
+          <text id="static_instance-village-1">
+            <value>Mohoro Mashariki</value>
+          </text>
+          <text id="static_instance-hamlet-33">
+            <value>Nyarindi</value>
+          </text>
+          <text id="static_instance-hamlet-22">
+            <value>Nyamidege</value>
+          </text>
+          <text id="/household_census/interviewer/JKI:label">
+            <value>Jumanne Kinjumbi</value>
+          </text>
+          <text id="static_instance-hamlet-20">
+            <value>Nyampaku Bara</value>
+          </text>
+          <text id="static_instance-hamlet-14">
+            <value>Nyakikai</value>
+          </text>
+          <text id="static_instance-hamlet-26">
+            <value>Rangi Tatu</value>
+          </text>
+          <text id="static_instance-hamlet-27">
+            <value>Kindwitwi</value>
+          </text>
+          <text id="static_instance-hamlet-24">
+            <value>Stand</value>
+          </text>
+          <text id="/household_census/village:label">
+            <value>Kijiji</value>
+          </text>
+          <text id="static_instance-hamlet-35">
+            <value>Ndundu</value>
+          </text>
+          <text id="/household_census/householdNumber:label">
+            <value>Namba ya kaya</value>
+          </text>
+          <text id="static_instance-hamlet-29">
+            <value>Kisangi</value>
+          </text>
+          <text id="static_instance-ward-0">
+            <value>Chumbi</value>
+          </text>
+          <text id="static_instance-fw-5">
+            <value>Yasini Njopeka</value>
+          </text>
+          <text id="/household_census/northings:label">
+            <value>Northings</value>
+          </text>
+          <text id="static_instance-hamlet-12">
+            <value>Butu</value>
+          </text>
+          <text id="static_instance-hamlet-32">
+            <value>Msikitini</value>
+          </text>
+          <text id="static_instance-hamlet-37">
+            <value>Londondo</value>
+          </text>
+          <text id="static_instance-fw-3">
+            <value>Tabley Ndemanga</value>
+          </text>
+          <text id="static_instance-hamlet-10">
+            <value>Kilindi</value>
+          </text>
+          <text id="static_instance-hamlet-25">
+            <value>Mikorwa</value>
+          </text>
+          <text id="/household_census/householdId:label">
+            <value>Utambulishi wa kaya</value>
+          </text>
+          <text id="static_instance-hamlet-18">
+            <value>Mwanani</value>
+          </text>
+          <text id="static_instance-hamlet-3">
+            <value>Ipengo</value>
+          </text>
+          <text id="static_instance-hamlet-2">
+            <value>Tangini</value>
+          </text>
+          <text id="static_instance-hamlet-1">
+            <value>Kigogo</value>
+          </text>
+          <text id="/household_census/hohFirstName:label">
+            <value>Jina la kwanza la mkuu wa kaya</value>
+          </text>
+          <text id="static_instance-hamlet-7">
+            <value>Mkanga</value>
+          </text>
+          <text id="/household_census/householdNumber:jr:constraintMsg">
+            <value>Ingiza tarakimu sahihi</value>
+          </text>
+          <text id="static_instance-hamlet-5">
+            <value>Magharibi</value>
+          </text>
+          <text id="static_instance-hamlet-4">
+            <value>Nyakipande</value>
+          </text>
+          <text id="static_instance-hamlet-39">
+            <value>Ndundu</value>
+          </text>
+          <text id="/household_census/acknowledge:label">
+            <value>Tafadhali tayarisha ishara ya utambulisho kisha ipachikwe juu ya mlango wa kuingilia kaya ikiwa inatambulika kwa: <output value=" /household_census/hhId "/></value></text>
+          <text id="static_instance-hamlet-8">
+            <value>Kipoka Msomeni</value>
+          </text>
+          <text id="static_instance-hamlet-28">
+            <value>Mpilimpili</value>
+          </text>
+          <text id="/household_census/numHouseholdMembers:label">
+            <value>Idadi ya wakazi wa kaya hii</value>
+          </text>
+          <text id="/household_census/hohMiddleName:label">
+            <value>Jina la kati la mkuu wa kaya</value>
+          </text>
+          <text id="/household_census/hamlet:label">
+            <value>Kitongoji</value>
+          </text>
+          <text id="/household_census/interviewer/TND:label">
+            <value>Tabley Ndemanga</value>
+          </text>
+          <text id="/household_census/interviewer:label">
+            <value>Jina la mhojaji</value>
+          </text>
+          <text id="static_instance-village-5">
+            <value>Chumbi A</value>
+          </text>
+          <text id="static_instance-village-2">
+            <value>Shela</value>
+          </text>
+          <text id="/household_census/interviewer/YNJ:label">
+            <value>Yasini Njopeka</value>
+          </text>
+          <text id="static_instance-village-8">
+            <value>Ndundutawa</value>
+          </text>
+          <text id="static_instance-hamlet-17">
+            <value>Sunga Pwani</value>
+          </text>
+          <text id="static_instance-hamlet-16">
+            <value>Sunga Bara</value>
+          </text>
+          <text id="static_instance-hamlet-15">
+            <value>Nyandote</value>
+          </text>
+          <text id="static_instance-hamlet-0">
+            <value>Kiegele</value>
+          </text>
+          <text id="static_instance-hamlet-13">
+            <value>Old Muhoro</value>
+          </text>
+          <text id="/household_census/ward:label">
+            <value>Kata</value>
+          </text>
+          <text id="static_instance-hamlet-11">
+            <value>Msikitini</value>
+          </text>
+          <text id="/household_census/ward/chumbi:label">
+            <value>Chumbi</value>
+          </text>
+          <text id="static_instance-hamlet-21">
+            <value>Nyampaku Mashariki</value>
+          </text>
+          <text id="static_instance-hamlet-38">
+            <value>Miiru</value>
+          </text>
+          <text id="static_instance-hamlet-34">
+            <value>Makenzi</value>
+          </text>
+          <text id="/household_census/interviewer/MNG:label">
+            <value>Mohamedi Ngayakia</value>
+          </text>
+          <text id="static_instance-hamlet-19">
+            <value>Nyampaku Pwani</value>
+          </text>
+          <text id="static_instance-hamlet-6">
+            <value>Ngalo</value>
+          </text>
+        </translation>
+        <translation lang="English">
+          <text id="static_instance-village-0">
+            <value>Mohoro Magharibi</value>
+          </text>
+          <text id="static_instance-hamlet-30">
+            <value>Chayonge</value>
+          </text>
+          <text id="static_instance-village-4">
+            <value>Kiwanga</value>
+          </text>
+          <text id="/household_census/hohLastName:label">
+            <value>Last name of head of house</value>
+          </text>
+          <text id="static_instance-fw-4">
+            <value>Sada Kihambwe</value>
+          </text>
+          <text id="/household_census/householdNumber:hint">
+            <value>Enter six digits, left padded with 0's if necessary, e.g. 000042 for House number 42</value>
+          </text>
+          <text id="static_instance-fw-2">
+            <value>Jumanne Kinjumbi</value>
+          </text>
+          <text id="static_instance-fw-1">
+            <value>Mohamedi Ngayakia</value>
+          </text>
+          <text id="static_instance-hamlet-36">
+            <value>Kiwanga Nyale</value>
+          </text>
+          <text id="/household_census/interviewer/SKI:label">
+            <value>Sada Kihambwe</value>
+          </text>
+          <text id="/household_census/eastings:label">
+            <value>Eastings</value>
+          </text>
+          <text id="static_instance-fw-0">
+            <value>Manitu Mkumba</value>
+          </text>
+          <text id="static_instance-village-7">
+            <value>Chumbi C</value>
+          </text>
+          <text id="static_instance-hamlet-9">
+            <value>Kipoka</value>
+          </text>
+          <text id="static_instance-village-3">
+            <value>King’ongo</value>
+          </text>
+          <text id="static_instance-hamlet-31">
+            <value>Kwa Mpakaliwa</value>
+          </text>
+          <text id="static_instance-village-6">
+            <value>Chumbi B</value>
+          </text>
+          <text id="/household_census/interviewer/MMK:label">
+            <value>Manitu Mkumba</value>
+          </text>
+          <text id="static_instance-hamlet-23">
+            <value>Nyautika</value>
+          </text>
+          <text id="static_instance-village-1">
+            <value>Mohoro Mashariki</value>
+          </text>
+          <text id="static_instance-hamlet-33">
+            <value>Nyarindi</value>
+          </text>
+          <text id="static_instance-hamlet-22">
+            <value>Nyamidege</value>
+          </text>
+          <text id="/household_census/interviewer/JKI:label">
+            <value>Jumanne Kinjumbi</value>
+          </text>
+          <text id="static_instance-hamlet-20">
+            <value>Nyampaku Bara</value>
+          </text>
+          <text id="static_instance-hamlet-14">
+            <value>Nyakikai</value>
+          </text>
+          <text id="static_instance-hamlet-26">
+            <value>Rangi Tatu</value>
+          </text>
+          <text id="static_instance-hamlet-27">
+            <value>Kindwitwi</value>
+          </text>
+          <text id="static_instance-hamlet-24">
+            <value>Stand</value>
+          </text>
+          <text id="/household_census/village:label">
+            <value>Village</value>
+          </text>
+          <text id="static_instance-hamlet-35">
+            <value>Ndundu</value>
+          </text>
+          <text id="/household_census/householdNumber:label">
+            <value>Household Number</value>
+          </text>
+          <text id="static_instance-hamlet-29">
+            <value>Kisangi</value>
+          </text>
+          <text id="static_instance-ward-0">
+            <value>Chumbi</value>
+          </text>
+          <text id="static_instance-fw-5">
+            <value>Yasini Njopeka</value>
+          </text>
+          <text id="/household_census/northings:label">
+            <value>Northings</value>
+          </text>
+          <text id="static_instance-hamlet-12">
+            <value>Butu</value>
+          </text>
+          <text id="static_instance-hamlet-32">
+            <value>Msikitini</value>
+          </text>
+          <text id="static_instance-hamlet-37">
+            <value>Londondo</value>
+          </text>
+          <text id="static_instance-fw-3">
+            <value>Tabley Ndemanga</value>
+          </text>
+          <text id="static_instance-hamlet-10">
+            <value>Kilindi</value>
+          </text>
+          <text id="static_instance-hamlet-25">
+            <value>Mikorwa</value>
+          </text>
+          <text id="/household_census/householdId:label">
+            <value>Household Id</value>
+          </text>
+          <text id="static_instance-hamlet-18">
+            <value>Mwanani</value>
+          </text>
+          <text id="static_instance-hamlet-3">
+            <value>Ipengo</value>
+          </text>
+          <text id="static_instance-hamlet-2">
+            <value>Tangini</value>
+          </text>
+          <text id="static_instance-hamlet-1">
+            <value>Kigogo</value>
+          </text>
+          <text id="/household_census/hohFirstName:label">
+            <value>First name of head of household</value>
+          </text>
+          <text id="static_instance-hamlet-7">
+            <value>Mkanga</value>
+          </text>
+          <text id="/household_census/householdNumber:jr:constraintMsg">
+            <value>Enter the correct digits</value>
+          </text>
+          <text id="static_instance-hamlet-5">
+            <value>Magharibi</value>
+          </text>
+          <text id="static_instance-hamlet-4">
+            <value>Nyakipande</value>
+          </text>
+          <text id="static_instance-hamlet-39">
+            <value>Ndundu</value>
+          </text>
+          <text id="/household_census/acknowledge:label">
+            <value>Please create an identifying marker to place above the household door with identifier: <output value=" /household_census/hhId "/></value></text>
+          <text id="static_instance-hamlet-8">
+            <value>Kipoka Msomeni</value>
+          </text>
+          <text id="static_instance-hamlet-28">
+            <value>Mpilimpili</value>
+          </text>
+          <text id="/household_census/numHouseholdMembers:label">
+            <value>Total number of household permanent residents</value>
+          </text>
+          <text id="/household_census/hohMiddleName:label">
+            <value>Middle name of head of household</value>
+          </text>
+          <text id="/household_census/hamlet:label">
+            <value>Hamlet</value>
+          </text>
+          <text id="/household_census/interviewer/TND:label">
+            <value>Tabley Ndemanga</value>
+          </text>
+          <text id="/household_census/interviewer:label">
+            <value>Interviewer's name</value>
+          </text>
+          <text id="static_instance-village-5">
+            <value>Chumbi A</value>
+          </text>
+          <text id="static_instance-village-2">
+            <value>Shela</value>
+          </text>
+          <text id="/household_census/interviewer/YNJ:label">
+            <value>Yasini Njopeka</value>
+          </text>
+          <text id="static_instance-village-8">
+            <value>Ndundutawa</value>
+          </text>
+          <text id="static_instance-hamlet-17">
+            <value>Sunga Pwani</value>
+          </text>
+          <text id="static_instance-hamlet-16">
+            <value>Sunga Bara</value>
+          </text>
+          <text id="static_instance-hamlet-15">
+            <value>Nyandote</value>
+          </text>
+          <text id="static_instance-hamlet-0">
+            <value>Kiegele</value>
+          </text>
+          <text id="static_instance-hamlet-13">
+            <value>Old Muhoro</value>
+          </text>
+          <text id="/household_census/ward:label">
+            <value>Ward</value>
+          </text>
+          <text id="static_instance-hamlet-11">
+            <value>Msikitini</value>
+          </text>
+          <text id="/household_census/ward/chumbi:label">
+            <value>Chumbi</value>
+          </text>
+          <text id="static_instance-hamlet-21">
+            <value>Nyampaku Mashariki</value>
+          </text>
+          <text id="static_instance-hamlet-38">
+            <value>Miiru</value>
+          </text>
+          <text id="static_instance-hamlet-34">
+            <value>Makenzi</value>
+          </text>
+          <text id="/household_census/interviewer/MNG:label">
+            <value>Mohamedi Ngayakia</value>
+          </text>
+          <text id="static_instance-hamlet-19">
+            <value>Nyampaku Pwani</value>
+          </text>
+          <text id="static_instance-hamlet-6">
+            <value>Ngalo</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <household_census id="household_census">
+          <ward/>
+          <village/>
+          <hamlet/>
+          <householdNumber/>
+          <hhId/>
+          <acknowledge/>
+          <householdId/>
+          <hohFirstName/>
+          <hohMiddleName/>
+          <hohLastName/>
+          <numHouseholdMembers/>
+          <northings/>
+          <eastings/>
+          <interviewer/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </household_census>
+      </instance>
+      <instance id="ward">
+        <root>
+          <item>
+            <itextId>static_instance-ward-0</itextId>
+            <name>chumbi</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="hamlet">
+        <root>
+          <item>
+            <itextId>static_instance-hamlet-0</itextId>
+            <ward>chumbi</ward>
+            <name>kiegele</name>
+            <village>CHA</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-1</itextId>
+            <ward>chumbi</ward>
+            <name>kigogo</name>
+            <village>CHA</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-2</itextId>
+            <ward>chumbi</ward>
+            <name>tangini</name>
+            <village>CHA</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-3</itextId>
+            <ward>chumbi</ward>
+            <name>ipengo</name>
+            <village>CHA</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-4</itextId>
+            <ward>chumbi</ward>
+            <name>nyakipande</name>
+            <village>CHC</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-5</itextId>
+            <ward>chumbi</ward>
+            <name>magharibi</name>
+            <village>CHC</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-6</itextId>
+            <ward>chumbi</ward>
+            <name>ngalo</name>
+            <village>CHC</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-7</itextId>
+            <ward>chumbi</ward>
+            <name>mkanga</name>
+            <village>CHC</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-8</itextId>
+            <ward>chumbi</ward>
+            <name>kipokamsomeni</name>
+            <village>CHB</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-9</itextId>
+            <ward>chumbi</ward>
+            <name>kipoka</name>
+            <village>CHB</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-10</itextId>
+            <ward>chumbi</ward>
+            <name>kilindi</name>
+            <village>CHB</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-11</itextId>
+            <ward>chumbi</ward>
+            <name>msikitini</name>
+            <village>CHB</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-12</itextId>
+            <ward>chumbi</ward>
+            <name>butu</name>
+            <village>CHB</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-13</itextId>
+            <ward>chumbi</ward>
+            <name>oldmuhoro</name>
+            <village>MMG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-14</itextId>
+            <ward>chumbi</ward>
+            <name>nyakikai</name>
+            <village>MMG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-15</itextId>
+            <ward>chumbi</ward>
+            <name>nyandote</name>
+            <village>MMG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-16</itextId>
+            <ward>chumbi</ward>
+            <name>sungabaraSunga Bara</name>
+            <village>MMG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-17</itextId>
+            <ward>chumbi</ward>
+            <name>sungapwani</name>
+            <village>MMG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-18</itextId>
+            <ward>chumbi</ward>
+            <name>mwanani</name>
+            <village>MMG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-19</itextId>
+            <ward>chumbi</ward>
+            <name>nyampakupwani</name>
+            <village>MMS</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-20</itextId>
+            <ward>chumbi</ward>
+            <name>nyampakubara</name>
+            <village>MMS</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-21</itextId>
+            <ward>chumbi</ward>
+            <name>nyampakumashariki</name>
+            <village>MMS</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-22</itextId>
+            <ward>chumbi</ward>
+            <name>nyamidege</name>
+            <village>MMS</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-23</itextId>
+            <ward>chumbi</ward>
+            <name>nyautika</name>
+            <village>MMS</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-24</itextId>
+            <ward>chumbi</ward>
+            <name>stand</name>
+            <village>SHE</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-25</itextId>
+            <ward>chumbi</ward>
+            <name>mikorwa</name>
+            <village>SHE</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-26</itextId>
+            <ward>chumbi</ward>
+            <name>rangitatu</name>
+            <village>SHE</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-27</itextId>
+            <ward>chumbi</ward>
+            <name>kindwitwi</name>
+            <village>SHE</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-28</itextId>
+            <ward>chumbi</ward>
+            <name>mpilimpili</name>
+            <village>KNG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-29</itextId>
+            <ward>chumbi</ward>
+            <name>kisangi</name>
+            <village>KNG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-30</itextId>
+            <ward>chumbi</ward>
+            <name>chayonge</name>
+            <village>KNG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-31</itextId>
+            <ward>chumbi</ward>
+            <name>kwampakaliwa</name>
+            <village>KNG</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-32</itextId>
+            <ward>chumbi</ward>
+            <name>msikitini</name>
+            <village>NNT</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-33</itextId>
+            <ward>chumbi</ward>
+            <name>nyarindi</name>
+            <village>NNT</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-34</itextId>
+            <ward>chumbi</ward>
+            <name>makenzi</name>
+            <village>NNT</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-35</itextId>
+            <ward>chumbi</ward>
+            <name>ndundu</name>
+            <village>NNT</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-36</itextId>
+            <ward>chumbi</ward>
+            <name>kiwanganyale</name>
+            <village>KWN</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-37</itextId>
+            <ward>chumbi</ward>
+            <name>londondo</name>
+            <village>KWN</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-38</itextId>
+            <ward>chumbi</ward>
+            <name>miiru</name>
+            <village>KWN</village>
+          </item>
+          <item>
+            <itextId>static_instance-hamlet-39</itextId>
+            <ward>chumbi</ward>
+            <name>ndundu</name>
+            <village>KWN</village>
+          </item>
+        </root>
+      </instance>
+      <instance id="fw">
+        <root>
+          <item>
+            <itextId>static_instance-fw-0</itextId>
+            <name>MMK</name>
+          </item>
+          <item>
+            <itextId>static_instance-fw-1</itextId>
+            <name>MNG</name>
+          </item>
+          <item>
+            <itextId>static_instance-fw-2</itextId>
+            <name>JKI</name>
+          </item>
+          <item>
+            <itextId>static_instance-fw-3</itextId>
+            <name>TND</name>
+          </item>
+          <item>
+            <itextId>static_instance-fw-4</itextId>
+            <name>SKI</name>
+          </item>
+          <item>
+            <itextId>static_instance-fw-5</itextId>
+            <name>YNJ</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="village">
+        <root>
+          <item>
+            <itextId>static_instance-village-0</itextId>
+            <ward>chumbi</ward>
+            <name>MMG</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-1</itextId>
+            <ward>chumbi</ward>
+            <name>MMS</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-2</itextId>
+            <ward>chumbi</ward>
+            <name>SHE</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-3</itextId>
+            <ward>chumbi</ward>
+            <name>KNG</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-4</itextId>
+            <ward>chumbi</ward>
+            <name>KWN</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-5</itextId>
+            <ward>chumbi</ward>
+            <name>CHA</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-6</itextId>
+            <ward>chumbi</ward>
+            <name>CHB</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-7</itextId>
+            <ward>chumbi</ward>
+            <name>CHC</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-8</itextId>
+            <ward>chumbi</ward>
+            <name>NNT</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/household_census/ward" required="true()" type="select1"/>
+      <bind nodeset="/household_census/village" required="true()" type="select1"/>
+      <bind nodeset="/household_census/hamlet" required="true()" type="select1"/>
+      <bind constraint="regex(.,'[0]{2}[0-9]{4}')" jr:constraintMsg="jr:itext('/household_census/householdNumber:jr:constraintMsg')" nodeset="/household_census/householdNumber" required="true()" type="string"/>
+      <bind calculate="concat( /household_census/village , /household_census/householdNumber )" nodeset="/household_census/hhId" type="string"/>
+      <bind nodeset="/household_census/acknowledge" type="string"/>
+      <bind calculate="concat( /household_census/village , /household_census/householdNumber )" nodeset="/household_census/householdId" readonly="true()" type="string"/>
+      <bind nodeset="/household_census/hohFirstName" required="true()" type="string"/>
+      <bind nodeset="/household_census/hohMiddleName" required="true()" type="string"/>
+      <bind nodeset="/household_census/hohLastName" required="true()" type="string"/>
+      <bind nodeset="/household_census/numHouseholdMembers" required="true()" type="int"/>
+      <bind nodeset="/household_census/northings" required="true()" type="string"/>
+      <bind nodeset="/household_census/eastings" required="true()" type="string"/>
+      <bind nodeset="/household_census/interviewer" required="true()" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/household_census/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 appearance="minimal" ref="/household_census/ward">
+      <label ref="jr:itext('/household_census/ward:label')"/>
+      <item>
+        <label ref="jr:itext('/household_census/ward/chumbi:label')"/>
+        <value>chumbi</value>
+      </item>
+    </select1>
+    <select1 appearance="minimal" ref="/household_census/village">
+      <label ref="jr:itext('/household_census/village:label')"/>
+      <itemset nodeset="instance('village')/root/item[ward= /household_census/ward ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <select1 appearance="minimal" ref="/household_census/hamlet">
+      <label ref="jr:itext('/household_census/hamlet:label')"/>
+      <itemset nodeset="instance('hamlet')/root/item[village= /household_census/village ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <input appearance="numbers" ref="/household_census/householdNumber">
+      <label ref="jr:itext('/household_census/householdNumber:label')"/>
+      <hint ref="jr:itext('/household_census/householdNumber:hint')"/>
+    </input>
+    <trigger ref="/household_census/acknowledge">
+      <label ref="jr:itext('/household_census/acknowledge:label')"/>
+    </trigger>
+    <input ref="/household_census/householdId">
+      <label ref="jr:itext('/household_census/householdId:label')"/>
+    </input>
+    <input ref="/household_census/hohFirstName">
+      <label ref="jr:itext('/household_census/hohFirstName:label')"/>
+    </input>
+    <input ref="/household_census/hohMiddleName">
+      <label ref="jr:itext('/household_census/hohMiddleName:label')"/>
+    </input>
+    <input ref="/household_census/hohLastName">
+      <label ref="jr:itext('/household_census/hohLastName:label')"/>
+    </input>
+    <input ref="/household_census/numHouseholdMembers">
+      <label ref="jr:itext('/household_census/numHouseholdMembers:label')"/>
+    </input>
+    <input appearance="numbers" ref="/household_census/northings">
+      <label ref="jr:itext('/household_census/northings:label')"/>
+    </input>
+    <input appearance="numbers" ref="/household_census/eastings">
+      <label ref="jr:itext('/household_census/eastings:label')"/>
+    </input>
+    <select1 appearance="minimal" ref="/household_census/interviewer">
+      <label ref="jr:itext('/household_census/interviewer:label')"/>
+      <item>
+        <label ref="jr:itext('/household_census/interviewer/MMK:label')"/>
+        <value>MMK</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household_census/interviewer/MNG:label')"/>
+        <value>MNG</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household_census/interviewer/JKI:label')"/>
+        <value>JKI</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household_census/interviewer/TND:label')"/>
+        <value>TND</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household_census/interviewer/SKI:label')"/>
+        <value>SKI</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/household_census/interviewer/YNJ:label')"/>
+        <value>YNJ</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>
