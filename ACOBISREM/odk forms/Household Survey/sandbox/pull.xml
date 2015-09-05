@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>pull</h:title>
+    <model>
+      <instance>
+        <pull id="pull">
+          <fruit/>
+          <name/>
+          <note_fruite/>
+          <fruits/>
+          <note_fruits/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </pull>
+      </instance>
+      <bind calculate="pulldata('fruits', 'name','name', 'mango')" nodeset="/pull/fruit" type="string"/>
+      <bind nodeset="/pull/name" type="string"/>
+      <bind nodeset="/pull/note_fruite" readonly="true()" type="string"/>
+      <bind nodeset="/pull/fruits" type="select1"/>
+      <bind nodeset="/pull/note_fruits" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/pull/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/pull/name">
+      <label>Name</label>
+    </input>
+    <input ref="/pull/note_fruite">
+      <label>The fruit <output value=" /pull/fruit "/> pulled from csv</label>
+    </input>
+    <select1 appearance="search('fruits')" ref="/pull/fruits">
+      <label>Select a fruit</label>
+      <item>
+        <label>name</label>
+        <value>name_key</value>
+      </item>
+    </select1>
+    <input ref="/pull/note_fruits">
+      <label>The fruit <output value=" /pull/fruits "/> pulled from csv</label>
+    </input>
+  </h:body>
+</h:html>
